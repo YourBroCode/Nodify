@@ -1,0 +1,19 @@
+# ==========================
+# Global
+# ==========================
+*.log
+*.env
+.env.*
+.DS_Store
+frontend/node_modules/
+venv/
+__pycache__/
+
+
+# ==========================
+# Python (Backend)
+# ==========================
+# Byte-compiled / optimized / DLL files
+
+
+
