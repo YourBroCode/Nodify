@@ -36,7 +36,7 @@ export const SubmitButton = () => {
     if (nodes.length > 0 || edges.length > 0) {
       const payload = { nodes, edges };
       try {
-        const response = await fetch("https://nodify-1.onrender.com/", {
+        const response = await fetch("https://nodify-1.onrender.com/pipelines/parse", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
